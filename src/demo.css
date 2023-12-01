@@ -1,0 +1,34 @@
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+  }
+  
+  
+  .cursor__circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: gainsboro;
+  }
+  
+  .cursor__circle--upper {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .cursor__circle--lower {
+    width: 15px;
+    height: 15px;
+  }
+ 
+  
+  .hover .cursor__circle--upper {
+    width: 40px;
+    height: 40px;
+  }
+  
+  

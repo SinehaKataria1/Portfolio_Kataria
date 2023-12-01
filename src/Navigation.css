@@ -1,0 +1,49 @@
+.offcanvas{
+    /* border-radius: 25px; */
+    border-top-right-radius: 35px;
+    background-color:rgb(18, 16, 16);
+    border-bottom-right-radius: 35px;
+}
+.btn-close{
+    color: white;
+    background-color: aliceblue;
+}
+.homebtn{
+    border-radius:25px;
+    margin-bottom: 25px;
+    color: white;
+    outline:1px solid #7000ff
+}
+.homebtn:hover,.Aboutbtn:hover,.resumebtn:hover,.servicebtn:hover,.blogsbtn:hover,.contactbtn:hover{
+    background-color: #7000ff;
+}
+.Aboutbtn{
+    border-radius:25px;
+    margin-bottom: 25px;
+    color: white;
+    outline:1px solid #7000ff
+}
+.resumebtn{
+    border-radius:25px;
+    color: white;
+    margin-bottom: 25px;
+    outline:1px solid #7000ff
+}
+.servicebtn{
+    border-radius:25px;
+    margin-bottom: 25px;
+    color: white;
+    outline:1px solid #7000ff
+}
+.blogsbtn{
+    border-radius:25px;
+    margin-bottom: 25px;
+    color: white;
+    outline:1px solid #7000ff
+}
+.contactbtn{
+    border-radius:25px;
+    margin-bottom: 25px;
+    color: white;
+    outline:1px solid #7000ff
+}

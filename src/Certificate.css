@@ -1,0 +1,160 @@
+.html .card-header img{
+     width: 100px;
+     height: 100px;
+     
+}
+.html{
+    box-shadow: 0 0 20px 0 orangered;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.html:hover,.css:hover,.js:hover,.cplus:hover,.front-end:hover,.java:hover,.sql:hover,.react:hover,.node:hover{
+    transform: scale(0.8);
+}
+.html .card-header{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+.html,.css,.js,.cplus,.java,.front-end,.sql,.react,.node{
+    
+    width: 330px;
+    margin-bottom: 15px;
+}
+.card-body{
+    background-color: black;
+}
+.css .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.css{
+    box-shadow: 0 0 20px 0  rgb(23, 47, 98);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.css .card-header{
+    background-color: rgb(23, 47, 98);
+    display: flex;
+    justify-content: center;
+}
+.js .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.js .card-header{
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+}
+.js{
+    box-shadow: 0 0 20px 0 yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.front-end .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.front-end .card-header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.front-end{
+    box-shadow: 0 0 20px 0 whitesmoke;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.react .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.react .card-header{
+    background-color: rgb(21, 84, 107);
+    display: flex;
+    justify-content: center;
+}
+.react{
+    box-shadow: 0 0 20px 0 rgb(21, 84, 107);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.node .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.node{
+    box-shadow: 0 0 20px 0 green;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.node .card-header{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.sql .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.sql .card-header{
+    background-color: rgb(6, 73, 108);
+    display: flex;
+    justify-content: center;
+}
+.sql{
+    box-shadow: 0 0 20px 0 rgb(6, 73, 108);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.cplus .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.cplus .card-header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.cplus{
+    box-shadow: 0 0 20px 0 white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.java .card-header img{
+    width: 100px;
+    height: 100px;
+}
+.java .card-header{
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+}
+.java{
+    box-shadow: 0 0 20px 0 rgb(255, 123, 0);    
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+  .line-with-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 ;
+  }
+  
+  .line {
+    height: 2px;
+    width: 150px;/* Adjust the length of the line as needed */
+    background-color: #700fff;
+    color: #700fff;
+  }

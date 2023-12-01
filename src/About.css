@@ -1,0 +1,83 @@
+.circle1,.circle2{
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background-color: #700fff;
+   
+}
+.line1{
+   width:8px;
+   height: 8px;
+   margin: 0;
+   border-radius: 5px;
+}
+.cv{
+   border: 1px solid #700fff;
+   color: #fff;
+   box-shadow: 8px 8px 8px #700fff;
+}
+.cv:hover{
+   outline: 1px solid #333;
+ background-color: #700fff;
+ box-shadow:15px 15px 15px #700fff;
+}
+.cv:hover .down{
+   color: #fff;
+  }
+.down{
+   margin-left: 8px;
+   color: #700fff;
+}
+
+.About{
+   margin-top: 200px;
+  
+   height: 300px;
+   padding: 200px;
+}
+.line-with-circles1 {
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+
+ }
+ 
+ .circle {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: #333;
+   margin: 0 ;
+ }
+ 
+ .line {
+   height: 2px;
+   width: 150px; /* Adjust the length of the line as needed */
+   background-color: #700fff;
+   color: #700fff;
+ }
+
+ .imgrelative{
+   /* z-index: -1; */
+   border: 3px solid  #700fff;
+   /* background-color: red; */
+   /* padding: 10px 200px; */
+   width: 400px;
+   height:400px;
+  
+   position: relative;
+   top: 100px;
+   
+ }
+ .imgabsolute{
+   /* z-index: 0; */
+   position: absolute;
+   top: -40px;
+   right: -30px;
+ 
+ }
+ @media screen and (max-width:900px) {
+   .line1{
+      margin-top: 0;
+   }
+ }

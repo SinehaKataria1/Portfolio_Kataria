@@ -1,0 +1,33 @@
+.edudiv{
+   background-color:#141313;
+   /* box-shadow: 0 0 10px 0  #1d5a5a; */
+   box-shadow: 8px 8px 8px #7000ff;
+border: 1px solid #7000ff;
+ border-radius:10px
+}
+.edudiv:hover{
+    background-color: black;
+    box-shadow: 15px 15px 15px #7000ff;
+
+}
+.line-with-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 ;
+  }
+  
+  .line {
+    height: 2px;
+    width: 150px; /* Adjust the length of the line as needed */
+    background-color: #700fff;
+    color: #700fff;
+  }

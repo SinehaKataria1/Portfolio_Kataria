@@ -1,0 +1,16 @@
+.cursor {
+    pointer-events: none;
+
+    &__ball {
+      position: fixed;
+     
+      left: 0;
+      right: 0;
+      mix-blend-mode: difference;
+      z-index: 1000;
+
+      circle {
+        fill: white !important
+      }
+    }
+  }

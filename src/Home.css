@@ -1,0 +1,179 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(18,14,22);
+  color: white;
+  
+  
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+
+}
+
+
+.home{
+  /* background-image: url("https://www.mifu.co.uk/_next/static/media/mifu_landing_final.ba16a698.png"); */
+  /* background-image: url("https://s.w-x.co/util/image/w/meteor-shower.en_.gif?v=ap&w=980&h=551"); */
+  background-image: url("https://i.gifer.com/XZ5V.gif");
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  object-fit: cover;
+  /* height: 100vh; */
+  
+  background-repeat: no-repeat;
+
+  /* background-attachment: fixed; */
+}
+.leftheader{
+  color: #7000ff;
+}
+.lefth1::after{
+ 
+    content: "";
+    position: absolute;
+    bottom: 0.7rem;
+    left: 73px;
+    top: 285px;
+    width: 17%;
+    height: 0.35rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(90deg,#9f55ff,#7000ff);
+    box-shadow: 0 0 1rem #7000ff;
+    animation: anim2 1.3s cubic-bezier(.9,0,.5,.9) .8s;
+
+}
+@keyframes anim2 {
+0% {
+  width: 0;
+}
+
+100% {
+  width:22%;
+}
+}
+@media screen and (max-width:1500px) {
+  .lefth1::after{
+    display: none;
+  }
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.wrapper .static-txt{
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(170,170,170);
+  opacity: 1;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+margin-left: 0;
+line-height: 90px;
+height: 90px;
+margin-top: 0;
+overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(170,170,170);
+  animation: slide 6s steps(4) infinite;
+  position: relative;
+  top: 0;
+}
+@keyframes slide {
+  100%{
+         top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+}
+.dynamic-txts li span::after
+{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color:rgb(18,14,22);
+  
+  left: 0;
+  top:2px;
+  border-left: 2px solid white;
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+  100%{
+         left: 115%;
+        
+  }
+}
+.talkbtn {
+  
+  
+  
+  font-family: JetBrains Mono,monospace;
+  font-size: .8rem;
+  font-weight: 800;
+  padding: 0.87rem 2rem;
+  background-clip: padding-box;
+  border-radius: 0.4rem;
+  color: #fff;
+  text-decoration: none;
+  outline: 2px solid #7000ff;
+  
+}
+
+.talkbtn:hover {
+  background: transparent;
+  background: linear-gradient(120deg,transparent ,transparent 50%,#1d1f24 0,#8b31ff 0);
+  background-position: 100%;
+  background-size: 220%;
+ transition-property: background-position;
+ transition-duration: 0.3s;
+ transition-timing-function: ease-in-out;
+ transition-delay: 0s;
+ cursor: pointer;
+}
+.image1{
+ animation-name: anim1;
+    animation-duration: 3s;
+   
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: ease-in-out;
+}
+@keyframes anim1 {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(20px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+.icons li a{
+ color: #fff;
+margin-bottom: 20px;
+/* cursor: none; */
+}
+.icons li a:hover{
+  color:#7000ff;
+  font-size: x-large;
+}
+
+

@@ -1,0 +1,227 @@
+
+.line-with-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 ;
+  }
+  
+  .line {
+    height: 2px;
+    width: 150px; /* Adjust the length of the line as needed */
+    background-color: #700fff;
+    color: #700fff;
+  }
+  .absolutediv{
+    position: absolute;
+    /* top:40px */
+  }
+
+.card-containermern ,.card-containerdev{
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.card-1 {
+  background-color: yellow;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 350px;
+  background-image: url("https://sbr-technologies.com/wp-content/uploads/2021/07/Mern-Stack-Developer.png");
+  /* object-fit: fill; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:cover;
+}
+ .card-2 {
+  background-color: rgb(36, 43, 92);
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  /* box-sizing: border-box; */
+  width: 400px;
+  height: 350px;
+}
+
+.card-1 h1, .card-2 h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.card-1 p, .card-2 p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.quote-marks {
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+
+.quote-marks .top {
+  left: 10px;
+  top: -10px;
+}
+
+.quote-marks .bottom {
+  right: 10px;
+  bottom: -10px;
+}
+
+.card-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: top 0.5s, left 0.5s;
+}
+
+.card-2 {
+  position: relative;
+  top:30px;
+  left: 20px;
+  /* transform:rotate(8deg); */
+  transition: top 0.5s, left 0.5s;
+}
+
+.card-containermern:hover .card-1 {
+  top: 50px;
+  left: 50px;
+  /* transform:rotate(8deg); */
+}
+
+.card-containermern:hover .card-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform:rotate(0deg); */
+  z-index: 2;
+}
+.card-3 {
+  background-color: yellow;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 350px;
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/60f1e792c7e89f933811814c/DevOps-concept/960x0.jpg");
+  /* object-fit: fill; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:cover;
+}
+ .card-4 {
+  background-color: rgb(241, 235, 235);
+  color: black; 
+  border-radius: 20px;
+  padding: 30px;
+  /* box-sizing: border-box; */
+  width: 400px;
+  height: 350px;
+}
+
+.card-3 h1, .card-4 h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.card-3 p, .card-4 p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.quote-marks {
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+
+.quote-marks .top {
+  left: 10px;
+  top: -10px;
+}
+
+.quote-marks .bottom {
+  right: 10px;
+  bottom: -10px;
+}
+
+.card-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: top 0.5s, left 0.5s;
+}
+
+.card-4 {
+  position: relative;
+  top:30px;
+  left: 20px;
+  /* transform:rotate(8deg); */
+  transition: top 0.5s, left 0.5s;
+}
+
+.card-containerdev:hover .card-3 {
+  top: 50px;
+  left: 50px;
+  /* transform:rotate(8deg); */
+}
+
+.card-containerdev:hover .card-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform:rotate(0deg); */
+  z-index: 2;
+}
+@media screen and (max-width:1300px){
+  .card-containerdev {
+   margin-top: 220px;
+ 
+  }
+  .card-1,.card-2,.card-3,.card-4{
+    padding: 20px;
+  }
+  .card-containerdev:hover .card-3 {
+   
+    left: 20px;
+    
+  }
+  .card-containermern:hover .card-1 {
+   
+    left: 20px;
+    
+  }
+}
+.blog{
+  margin-bottom: 200px;
+}

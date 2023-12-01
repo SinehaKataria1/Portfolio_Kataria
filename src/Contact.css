@@ -1,0 +1,153 @@
+.line-with-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 ;
+  }
+  
+  .line {
+    height: 2px;
+    width: 80px; /* Adjust the length of the line as needed */
+    background-color: #700fff;
+    color: #700fff;
+  }
+  .message{
+    color: #700fff;
+    border-top-left-radius: 15px;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid aliceblue;
+
+  }
+  .text{
+    width: 20vw
+
+  }
+  .text2{
+    width: 300vw;
+
+  }
+  
+.custom-input .MuiInput-underline::before {
+    border-bottom: 1px solid #700fff !important; /* Change 'white' to your desired color */
+  }
+  
+  .custom-input .MuiInput-underline:hover:not(.Mui-disabled)::before {
+    border-bottom: 1px solid #700fff !important; /* Change 'white' to your desired color */
+  }
+  .custom-input .MuiOutlinedInput-root {
+    border-color: white !important; /* Change 'white' to your desired border color */
+  }
+  
+  .custom-input .MuiOutlinedInput-root:hover {
+    border-color: white !important; /* Change 'white' to your desired hover border color */
+  }
+  .submit{
+    color: white;
+    border: 2px solid #700fff;
+  }
+  .submit:hover{
+    background-color: #700fff;
+  }
+  /* .footernav .nav-item{
+    background-color: #000000;
+    color: #700fff;
+    padding: 2px;
+    border-radius: 10%;
+  } */
+  .FooterBg_top__2T9_L {
+    padding: 120px 0 270px;
+    position: relative;
+    overflow-x: hidden;
+}
+.FooterBg_top__2T9_L .FooterBg_background__3ENoK {
+  position: absolute;
+  bottom: 0;
+  background: url("https://www.shubhporwal.me/footer/background.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+.FooterBg_top__2T9_L .FooterBg_background__one__2xvFH {
+  background: url("https://www.shubhporwal.me/footer/volkswagen.gif") no-repeat 50%;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: foot 22s linear infinite;
+  animation: foot 22s linear infinite;
+}
+.FooterBg_top__2T9_L .FooterBg_background__two__1aOsU {
+  background: url("https://www.shubhporwal.me/footer/cyclist.gif") no-repeat 50%;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: foot 30s linear infinite;
+  animation: foot 30s linear infinite;
+}
+@keyframes foot {
+ 0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+} 
+
+  
+}
+.connect{
+  border:2px solid white;
+  color: white;
+
+}
+.connect:hover{
+  background: transparent;
+  background: linear-gradient(120deg,transparent ,transparent 50%,#1d1f24 0,#050505 0);
+  background-position: 100%;
+  background-size: 220%;
+  transition-property: background-position;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+       /* max-width: 100%; */
+     height: auto;
+ width: 100%;
+}
+
+.footernav .nav-item a{
+  color: #1d1f24;
+}
+.footernav .nav-item a:hover{
+  transform: scale(1.5);
+}
+.love{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.feel{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+.top{
+  margin-top: 210px;
+}
